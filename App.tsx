@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import GameCard from './components/GameCard';
-import BookingModal from './components/BookingModal';
-import KarmaView from './components/KarmaView';
-import BookingsView from './components/BookingsView';
-import AboutView from './components/AboutView';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import GameCard from './GameCard';
+import BookingModal from './BookingModal';
+import KarmaView from './KarmaView';
+import BookingsView from './BookingsView';
+import AboutView from './AboutView';
 import { GAMES_DATA, MOCK_USER } from './constants';
 import { Tab, Game, User, Booking, SportCategory } from './types';
 import { Filter } from 'lucide-react';
